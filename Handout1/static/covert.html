@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<script>
+	function convert() {
+		var C = document.getElementById("c").value;
+		document.getElementById("f").innerHTML = C * 9/5 + 32;
+	}
+	</script>
+</head>
+
+<body>
+	<p>Insira e temperatura em Celsius:</p>
+	<input id="c" onkeyup="convert()"> Celsius igual a 
+	<span id="f">---</span> Fahrenheit
+</body>
+
+</html>
