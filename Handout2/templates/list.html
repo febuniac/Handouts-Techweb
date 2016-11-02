@@ -1,0 +1,15 @@
+<style>
+table, th, td {
+	border: 1px solid black;
+}
+</style>
+<table>
+<tbody>
+{% for row in users %}
+	<tr>
+  	<td>{{ row.username }}</td>
+  	<td>{{ row.email }}</td>
+	</tr>
+{% endfor %}
+</tbody>
+</table>
